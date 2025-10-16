@@ -18,7 +18,7 @@ def ensure_repo(path: str) -> Repo:
         repo = Repo.init(path)
         # Opcional: configura identidad si Git no la tiene globalmente
         with repo.config_writer() as cw:
-            cw.set_value("user", "name",  "Julio (website_nuevo)")
+            cw.set_value("user", "name",  "Julio (wrfanide)")
             cw.set_value("user", "email", "you@example.com")
         return repo
 
