@@ -6,8 +6,8 @@ if not TOKEN:
     raise SystemExit("No se encontró la variable de entorno GITHUB_TOKEN.")
 
 USERNAME   = "pronosticosnumericos"
-REMOTE_URL = f"https://{USERNAME}:{TOKEN}@github.com/{USERNAME}/wrf.git"
-REPO_PATH  = "/home/sig07/website_nuevo"
+REMOTE_URL = f"https://{USERNAME}:{TOKEN}@github.com/{USERNAME}/anide.git"
+REPO_PATH  = "/home/sig07/wrfanide"
 BRANCH     = "main"
 
 def ensure_repo(path: str) -> Repo:
